@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+   
+    background-size: cover; /* Cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+}
+
+header {
+    background-image: url('backgrownd.jpeg'); /* Imagen de fondo */
+    color: #333; /* Dark text color */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.logo {
+    max-width: 150px; /* Adjust logo size */
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Green color for links */
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url('backgrownd.jpeg'); /* Imagen de fondo */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
+}
+
+h2 {
+    color: #0e2035; /* Green color for section titles */
+}
+
+.specialist-image {
+    max-width: 150px; /* Reduce the maximum width of the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+    margin: 10px 0; /* Space around images */
+    display: block; /* Center the image */
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(241, 241, 241, 0.9); /* Light gray background with opacity */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
